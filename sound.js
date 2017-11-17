@@ -67,7 +67,7 @@ new five.Board().on("ready", function() {
 
 
   analogSensor.on("data", function() {
-    // https://forum.arduino.cc/index.php?topic=376308.0
+    // this formula may need work but was inspired by https://forum.arduino.cc/index.php?topic=376308.0
     var decibels = Math.round(40 + (20 * Math.log10(this.value/40)));
     console.log('decibels', decibels);
     if(decibels > 60){
