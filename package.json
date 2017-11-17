@@ -1,0 +1,30 @@
+{
+  "name": "iot-decibel-meter",
+  "version": "1.0.0",
+  "description": "A decibel meter built with a raspberry pi",
+  "main": "sound.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwyl/iot-decibel-meter.git"
+  },
+  "keywords": [
+    "iot",
+    "decibel",
+    "johnny-five",
+    "dwyl",
+    "arduino",
+    "pi"
+  ],
+  "author": "naazy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwyl/iot-decibel-meter/issues"
+  },
+  "homepage": "https://github.com/dwyl/iot-decibel-meter#readme",
+  "dependencies": {
+    "johnny-five": "^0.11.7"
+  }
+}
