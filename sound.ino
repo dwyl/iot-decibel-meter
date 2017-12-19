@@ -1,3 +1,6 @@
+//thanks to @tolribeiro
+//http://toribeiro.com/articles/2016-01/sound-level-meter-using-esp8266-arduino-sound-detector
+//for inspiration here particularly around calculating dBs
 #include <LiquidCrystal.h>
 
 const float dBAnalogQuiet = 10; // calibrated value from analog input (48 dB equivalent)
