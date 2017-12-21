@@ -20,7 +20,7 @@ The eventual aim is to get the decibel meter running just on the raspberry pi. H
 - Clone the repository
 - Download the [arduino IDE](https://www.arduino.cc/en/Main/Software)
 - Hook up the sparkfun sound detector. Follow instructions [here](https://learn.sparkfun.com/tutorials/sound-detector-hookup-guide?_ga=2.42092133.1361593521.1505302503-234789299.1505302503#introducing-the-sound-detector)
-On our setup, we have connected the envelope output to A1 and gate output to digital 3 (as well as 5V VCC and gnd). We have left the audio output disconnected because we do not need to use it.
+On our setup, we have connected the envelope output to A2 and gate output to digital 3 (as well as 5V VCC and gnd). We have left the audio output disconnected because we do not need to use it.
 
 - Connect LCD screen. We use pins: [7, 8, 9, 10, 11, 12]. Please see hardware hook up instructions [here](http://johnny-five.io/examples/lcd/)
 - Connect arduino to usb port of computer and check you are connected to your arduino port (Tools -> Port)
