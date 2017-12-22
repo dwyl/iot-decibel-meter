@@ -9,14 +9,14 @@ const float dBAnalogLoud = 17;
 
 LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
 
-#define PIN_ANALOG_IN A1
+#define PIN_ANALOG_IN A2
 
 void setup()
 {
 
   lcd.begin(16, 2);
 
-  pinMode(A1, INPUT);
+  pinMode(A2, INPUT);
 }
 
 void loop()
